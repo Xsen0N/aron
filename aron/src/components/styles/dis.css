@@ -1,0 +1,136 @@
+
+.text{
+    position: relative;
+    display: grid;
+    font-family: Source Sans 3;
+font-size: 173px;
+font-weight: 400;
+line-height: 173px;
+letter-spacing: 0em;
+text-align: left;
+margin-top:0;
+margin-right: 0;
+color: #D6D1CA;
+text-transform: uppercase;
+}
+div.text:nth-child(2) {
+    margin-right: 0px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    height: 100%;
+    width: 500px;
+}
+div.text:nth-child(3) {
+    margin-left: 170px;
+    margin-top: 30px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+div.text:nth-child(4) {
+    margin-left: 770px;
+    margin-top: 30px;
+    height: 100%;
+    margin-bottom: 30px;
+}
+#firstpart{
+    position: relative;
+    color: #D6D1CA;
+    text-transform: uppercase;
+    grid-column-start: 0;
+    grid-column-end: 2;
+    display: inline;
+}
+#Andpart{
+    position: relative;
+    text-transform: uppercase;
+    grid-column-start: 0;
+    grid-column-end: 2;
+    display: inline;
+    font-family: 'Playfair Display', serif;
+    color: #ffea00;
+}
+#secondpart{
+    position: relative;
+    color: #D6D1CA;
+    text-transform: uppercase;
+    grid-column-start: 0;
+    grid-column-end: 2;
+    display: inline;
+}
+.FAS{
+    position: absolute;
+    color: #D6D1CA;
+    text-transform: uppercase;
+    text-align: left;
+    width: 500px;
+    font-size: 20px;
+    top: 210px;
+    right: 193px;
+}
+#square1 {
+    position: absolute;
+    float: right;   
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+     grid-template-rows: repeat(3, 1fr);
+    border: -10px;
+	width: 100px;
+	height: 100px;
+	background: #FFEA00;
+  text-align: center;
+  top: 429px;
+      right: 97px;
+      transition: transform 0.5s cubic-bezier(0.23, 1, 0.32, 1);
+      transform-origin: center;
+}
+#square1:hover{
+    transform: scale(0.7);
+}
+.pause{
+    background: #FFEA00;
+    grid-column-start: 2;
+    grid-row-start: 2;
+    height: 40px;
+}
+.downscrool{
+    width: 119px;
+}
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+.play{
+    position: absolute;
+    height: 28px;
+    z-index: 10;
+    margin-top: 46px;
+    margin-left:46px
+}
+.po{
+    width: 119px;
+    display: grid;
+    grid-column: 1 fr 1fr 1fr;
+    grid-row: repeat(3, 1fr);
+    animation: spin 5s linear infinite;
+}
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.mainScroll{
+    position:absolute;
+    display: flex;
+    top: 614px;
+    right: 689px;
+    width: 120px;
+    margin-right: 0px;
+}

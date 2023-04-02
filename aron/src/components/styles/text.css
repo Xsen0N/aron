@@ -1,0 +1,112 @@
+.philosopy_text{
+    opacity: 1; 
+
+}
+.WeDoImg{
+    width: 503px;
+    height: 675px;
+    position: relative;
+}
+.block2{
+    margin-top: 150px;
+    display: grid;
+    grid-template-columns: 0.2fr 1fr; /* 2 колонки */
+    grid-template-rows: repeat(2, 1fr); /* 2 строки */
+    height: 700px;
+    margin-bottom: 150px;
+}
+
+.icons{
+    height: 50px;
+    grid-column-start: 0;
+    grid-column-end: 1;
+    grid-row-start: 0;}
+.maintext{
+    color:#D6D1CA;
+    font-family: Source Sans 3;
+font-style: normal;
+font-weight: 400;
+font-size: 19px;
+line-height: 24px;
+letter-spacing: 3px;
+width: 100px;
+height: 20px;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 0;
+grid-row-end: 1;
+text-align: left;
+}
+.addettext{
+    font-family: 'Source Sans 3', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 24px;
+height: 76px;
+width: 165px;
+grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 1;
+text-align: left;
+
+
+color: rgba(214, 209, 202, 0.8);
+}
+.textprops{
+    display: grid;
+    grid-row: 0.5fr 1.5fr;   
+    grid-column: 0.5fr 1.5fr;   
+    height: 1px;
+    width: 262px; 
+
+}
+.secondcolumn{
+    display: grid;
+    grid-template-columns: repeat(2, 1.2fr); /* 2 колонки */
+    grid-template-rows: repeat(2, 1fr); /* 2 строки */
+    gap: 20px; /* расстояние между элементами */ 
+    height: 350px;
+    grid-column-start: 1;
+grid-column-end: 2;
+grid-row-start: 1;
+grid-row-end: 2;
+}
+.table{
+    color: #D6D1CA;
+    font-style: normal;
+font-size: 50px;
+margin:0;
+margin-bottom: 50px;
+}
+.line{
+    font-family: 'Source Sans 3', sans-serif;
+    margin:0;
+    text-align: left;
+    text-transform: uppercase;
+    font-style: 55px;
+    height: 55px;
+    width: 650px;
+    letter-spacing: 2px;
+}
+.inov{
+    font-style: italic;
+    font-weight: 400!important;
+    transition: color 0.8s;
+}
+.inov:hover{
+color: yellow;
+}
+.text_wrapper{
+    grid-column-start: 0;
+grid-column-end: 1;
+grid-row-start: 0;
+grid-row-end: 1;
+}
+.maincolomn{
+    grid-column-start: 2;
+grid-column-end: 3;
+grid-row-start: 0;
+grid-row-end: 1;
+}

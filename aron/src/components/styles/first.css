@@ -1,0 +1,86 @@
+*{
+background-color: 
+#212721;
+}
+.main{
+    display: grid;
+        grid-template-columns: 0.5fr 0.15fr 0.7fr 0.7fr 6fr  0.15fr 0.2fr 0.4fr;
+       grid-template-rows: 50px;
+       margin-top:15px;
+  }
+  #aron{
+  position: relative;
+    height: 23px;;
+  left: 0.2%;
+  right: 30.49%;
+  margin-left:10px;
+  margin-top:-2px;
+  }
+  #aron-logo{
+    width: 70px;
+    height: auto;
+  }
+  #hello{
+    text-decoration: underline;
+    font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #D6D1CA;
+  }
+  
+  #eu{
+  font-family: 'Source Sans 3';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 20px;
+  /* identical to box height, or 154% */
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  color: #D6D1CA;
+  }
+  
+  #pac{
+      grid-column-start: 6;
+    grid-column-end: 7;
+  }
+  #slash{
+    height: 15px;
+  width: 1px;
+  left: 85.203125px;
+  top: 3.828125px;
+  background: #4A524A;
+  border-radius: 0px;
+      justify-self: center;
+     color: #4A524A;
+  
+  }
+  #square {
+      width: 22px;
+      height: 22px;
+      background: #FFEA00;
+    text-align: center;
+  }
+  #topline{
+    margin-top: 6px;
+        width: 26px;
+      height: 1.71px;
+  background: #D6D1CA;
+      justify-self: center;
+  
+  }
+  #btnline{
+    margin-top: 6px;
+          width: 26px;
+      height: 1.71px;
+  background: #D6D1CA;
+      justify-self: center;
+  }
