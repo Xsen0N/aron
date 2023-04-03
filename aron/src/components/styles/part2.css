@@ -211,6 +211,11 @@ transition: transform 0.5s ease-in-out;
   transition: transform 0.5s ease-out;
 }
 
+img.BrandItem5{
+  filter: invert(1);
+  background: none;
+}
+
 .BrandItem5:hover img.BrandItem5{
   transform: scale(1.4);
   width: 90px;
