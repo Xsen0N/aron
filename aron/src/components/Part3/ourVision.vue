@@ -20,23 +20,7 @@
 //import photoComp from "../photoComponent/photoComp.vue";
 import styles from "../styles/ourVision.module.css";
 
-export default {
-// data() {
-//     return {
-//         photoName = "../../assets/girl.jpg",
-//         photoText = "OUR VISION",
-//     },
-// },
-    data() {
-        return {
-            styles
-        }
-    },
 
-    components: {
-        photoComp
-    },
-}
 </script>
 
 <style>
