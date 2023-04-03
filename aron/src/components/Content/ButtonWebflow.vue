@@ -6,13 +6,23 @@ import '../styles/part2.css'
 <template>
     <div class="ButtonCollection">
         <div class="ButtonWebflow"><button :src=ButtonWebflowContent class="ButtonWebflow">{{ButtonWebflowContent}}</button></div>
-        <a :src=LinkConect class="LinkConect">
-            <div class="LinkAnimate">
-                <div>{{LinkConect}}</div>
-                <div class="LinkConectLine"></div>
-            </div>
-        </a>
+        <LinkUnderline :LinkConect="LinkConect"/>
     </div>
 </template>
+
+<script lang="ts">
+import LinkUnderline from './LinkUnderline.vue'
+export default {
+  components: {
+    LinkUnderline
+  },
+  data() {
+    return {
+        LinkConect: 'contact Us'
+    }
+  }
+}
+
+</script>
 
 
