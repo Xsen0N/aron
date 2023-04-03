@@ -1,0 +1,364 @@
+.ButtonWebflow{
+    display: inline-block;
+    border-radius: 4px;
+    border-width: 0;
+    background-color: #4a524a;
+    transition: all 200ms ease;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.ButtonWebflow:hover{
+  background-color: #ffea00;
+  color: #282e28;
+}
+
+*{
+    background-color: #282e28;
+}
+.BookImage{
+    width: 715px;
+}
+
+.ColorImage{
+    position: absolute;
+    margin-left: -130px;
+    margin-top: 82px;
+    width: 192px;
+}
+
+.TextBuild_wrapper{
+    
+    font-family: 'Source Sans 3', sans-serif;
+    color: #d6d1ca;
+    display: inline;
+}
+
+.FirstRowTextBuild{
+    margin: 0;
+    display: inline-block;
+}
+
+.BuildText, .Adjective, .WebflowText{
+    display: inline;
+    font-size: 66px;
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    color: #d6d1ca;
+    width: auto;
+    text-align: center;
+}
+.Adjective{
+    font-style: italic;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-family: system-ui;
+    margin: 9px;
+}
+.WebflowText{
+    display: block;
+    font-size: 60px;
+    margin-top: -14px;
+    font-size: 70px;
+}
+.button_wrapper{
+    margin: 50px;
+    display: inline;
+    
+}
+.LinkConect{
+    display: inline;
+    position: relative;
+    color: #d6d1ca;
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 14px;
+    margin-left: 40px;
+    margin-top: 15px;
+}
+
+.LinkConectLine{
+    position: relative;
+    width: 100%;
+    height: 1px;
+    background-color: #4a524a;
+    
+}
+
+.ButtonCollection{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: flex;
+    margin-left: 500px;
+}
+
+.gridContainerClient {
+    display: grid; 
+    margin-top: 5px; 
+    padding: 10px; 
+    grid-template-rows: 35% 55%;
+    grid-template-columns: 55% 45%; 
+    grid-template-areas:
+      'itemList itemBrandPhoto' 
+      'listOfBrands itemBrandPhoto' 
+  }
+
+  .itemList {
+    grid-area: itemList; 
+    display: inline;
+    color:#d6d1ca;
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: left;
+    font-size: 48px;
+  }
+  .itemText1 {
+
+    display: inline;
+  }  
+  .itemText2 {
+
+    display: inline;
+  }  
+  .SubItemText {
+    font-weight: 100;
+    font-style: italic  ;
+    display: inline;
+    font-family: system-ui;
+  }
+  .listOfBrands {
+    grid-area: listOfBrands;
+    display: grid; 
+    grid-template-rows: 150px 150px;
+    grid-template-columns: 33% 33% 33%; 
+    grid-template-areas:
+      'BrandItem1 BrandItem2 BrandItem3' 
+      'BrandItem4 BrandItem5 BrandItem6' 
+  }
+
+.BrandItem1 {
+    grid-area: BrandItem1;
+    text-align: center;
+    width: 100px;
+    vertical-align: bottom;
+  }
+
+.BrandItem2 {
+    grid-area: BrandItem2;
+    text-align: center;
+    width: 60px;
+    vertical-align: bottom;
+
+  }
+
+.BrandItem3 {
+    grid-area: BrandItem3;
+    text-align: center;
+    width: 100px;
+    vertical-align: bottom;
+  }
+
+.BrandItem4 {
+    grid-area: BrandItem4;
+    text-align: center;
+    width: 100px;
+    vertical-align: bottom;
+  }
+
+.BrandItem5 {
+    grid-area: BrandItem5;
+    text-align: center;
+    width: 100px;
+    vertical-align: bottom;
+  }
+
+.BrandItem6 {
+    grid-area: BrandItem6;
+    text-align: center;
+    width: 100px;
+    vertical-align: bottom;
+  }
+
+  .itemBrandPhoto {
+    grid-area: itemBrandPhoto;
+    width: 500px;
+    display: flex;
+  }
+
+.ClientImage{
+    width: 100%;
+    height: 100%;
+    object-position: 50% 0%;
+}
+
+.ClientText{
+        z-index: 0;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    color:#d6d1ca;
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    font-size: 94px;
+    margin-left: -36px;
+    margin-top: 233px;
+    background: none;
+
+
+}
+.ComboTextPhoto{
+    position: relative;
+    display: flex;
+    overflow: hidden;
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+
+    align-items: center
+}
+.ClientText2{
+    z-index: 2;
+    color: #ffea00;
+    font-family: 'Source Sans 3', sans-serif;
+    text-transform: uppercase;
+    font-size: 94px;
+    opacity: 1;
+    position: absolute;
+    text-align: center;
+    vertical-align: middle;
+    background: none;
+    width: 600px;
+    margin-left: -74px;
+    margin-top: 96px;
+}
+.ButtonEnquireUs{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    display: inline-block;
+    width: 147px;
+    height: 54px;
+    border-radius: 4px;
+    background-color: #4a524a;
+    margin-top: -52px;
+}
+
+.ButtonEnquireUs:hover{
+  background-color: #ffea00;
+  color: #282e28;
+  border: whitesmoke;
+}
+
+
+
+.LinkConectLine::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s, background-color 0.3s;
+}
+
+.LinkAnimate:hover .LinkConectLine::after {
+  width: 100%;
+  color: #000;
+  background-color: #ffea00;
+}
+
+.LinkAnimate:hover {
+  color: #ffea00;
+}
+
+/* 
+.Adjective:hover::after {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) calc(50% - 1px), rgba(255, 255, 255, 1) 50%, rgba(255, 255, 255, 0) calc(50% + 1px), rgba(255, 255, 255, 0) 100%);
+  z-index: 1;
+}
+
+.Adjective:hover {
+  opacity: 0.5;
+} */
+
+.Adjective {
+  position: relative;
+  display: inline-block;
+}
+
+.Adjective:hover::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff7f50;
+  opacity: 1;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Adjective:hover {
+  color: #ff7f50;
+}
+
+.Adjective:hover::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff7f50;
+  opacity: 0.3;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Adjective::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff7f50;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.Adjective::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #ff7f50;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
