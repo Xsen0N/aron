@@ -22,7 +22,7 @@ const props = defineProps({
       </div>
         </div>
     </div>
-<div class="maincolomn">
+<div class="maincolomn" id="myAnchor">
         <div class="table">
              <p :src="firstline" class="line">{{firstline}}</p>
              <p :src="secondline" class="line"><span :src="secondline" id="inov" > {{secondline}}</span>{{secondline2}} </p>

@@ -11,6 +11,17 @@ const treangle = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61b9
 const downscrool = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61b9e277e1f8a2db88a96334_scroll.png"
 const play = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61b9e248f608c4777d8b35b7_arrow_downward_black_24dp.svg" 
 
+const videoId = ref('123456') // ID видео   
+function playVideo() {
+  window.open(`https://www.youtube.com/watch?v=ZOanF9DfDu0&t=3s&ab_channel=Webflow/watch?v=${videoId.value}`, '_blank')
+}
+
+const scrollToAnchor = (anchor: string) => {
+  const anchorEl = document.querySelector(anchor)
+  if (anchorEl) {
+    anchorEl.scrollIntoView({ behavior: 'smooth' })
+  }
+}
 </script>
 
 <template >
@@ -29,11 +40,11 @@ const play = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61b9e248
 
 
     <div>
-<div id= "square1"><img :src ="treangle" class="pause"> </div>
+<button id= "square1" @click="playVideo"><img :src ="treangle" class="pause"> </button>
     </div> 
 
     <div class="mainScroll"> 
-      <a href="#inov">   <img :src="play" class ="play"> </a>
+      <a @click="scrollToAnchor('#myAnchor')" >   <img :src="play" class ="play" > </a>
         <div class="po"> <img :src="downscrool" class ="downscrool"> </div>
     </div> 
 
@@ -44,3 +55,4 @@ const play = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61b9e248
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&family=Red+Hat+Mono:wght@300;400&display=swap');
 </style>
+

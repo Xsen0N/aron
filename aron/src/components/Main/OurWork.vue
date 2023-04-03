@@ -6,13 +6,21 @@ const props = defineProps({
 import '../styles/work.css'
 const work = "Our Work"
 const workwithus = "work with us"
+const scrollToWorkBlock = (anchor: string) => {
+  const anchorEl = document.querySelector(anchor)
+  if (anchorEl) {
+    anchorEl.scrollIntoView({ behavior: 'smooth' })
+  }
+}
 </script>
+
+
 <template>
 <div class="lastblock">
 <div class="firstblock">
   
        <div  :src ="work"  class="work"> {{work}} </div >
-       <div :src ="workwithus " class="work2">  <LinkUnderline :LinkConect="LinkConect"/></div >
+       <div :src ="workwithus " class="work2" @click="scrollToWorkBlock('#workwithus')">  <LinkUnderline :LinkConect="LinkConect"/></div >
    
 </div>
     <div class="words" v-for="(part,keys) in props.texts" :key="keys">
