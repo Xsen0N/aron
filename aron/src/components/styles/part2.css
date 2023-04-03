@@ -30,6 +30,7 @@ color: #282e28;
   width: 192px;
 }
 
+
 .TextBuild_wrapper{
   
   font-family: 'Source Sans 3', sans-serif;
@@ -147,6 +148,7 @@ color: #282e28;
   text-align: center;
   width: 100px;
   vertical-align: bottom;
+  transition: transform 0.5s ease-out;
 }
 
 .BrandItem1:hover img.BrandItem1{
@@ -160,7 +162,7 @@ transition: transform 0.5s ease-in-out;
   text-align: center;
   width: 60px;
   vertical-align: bottom;
-
+  transition: transform 0.5s ease-out;
 }
 
 .BrandItem2:hover img.BrandItem2{
@@ -175,6 +177,7 @@ transition: transform 0.5s ease-in-out;
   text-align: center;
   width: 100px;
   vertical-align: bottom;
+  transition: transform 0.5s ease-out;
 }
 
 
@@ -182,6 +185,7 @@ transition: transform 0.5s ease-in-out;
   transform: scale(1.4);
   width: 90px;
   transition: transform 0.5s ease-in-out;
+  transition: transform 0.5s ease-out;
 }
 
 
@@ -190,6 +194,7 @@ transition: transform 0.5s ease-in-out;
   text-align: center;
   width: 100px;
   vertical-align: bottom;
+  transition: transform 0.5s ease-out;
 }
 
 .BrandItem4:hover img.BrandItem4{
@@ -203,6 +208,7 @@ transition: transform 0.5s ease-in-out;
   text-align: center;
   width: 100px;
   vertical-align: bottom;
+  transition: transform 0.5s ease-out;
 }
 
 .BrandItem5:hover img.BrandItem5{
@@ -217,6 +223,7 @@ transition: transform 0.5s ease-in-out;
   text-align: center;
   width: 100px;
   vertical-align: bottom;
+  transition: transform 0.5s ease-out;
 }
 
 .BrandItem6:hover img.BrandItem6{
