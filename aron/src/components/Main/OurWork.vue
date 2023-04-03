@@ -12,6 +12,7 @@ const scrollToWorkBlock = (anchor: string) => {
     anchorEl.scrollIntoView({ behavior: 'smooth' })
   }
 }
+import block from '../styles/block.module.css';
 </script>
 
 

@@ -17,8 +17,8 @@
 </template>
 
 <script>
-import photoComp from "./photoComponent/photoComp.vue";
-import styles from "./styles/ourVision.module.css";
+//import photoComp from "../photoComponent/photoComp.vue";
+import styles from "../styles/ourVision.module.css";
 
 export default {
 // data() {

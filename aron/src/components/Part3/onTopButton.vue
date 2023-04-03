@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import styles from "./styles/onTop.module.css";
+import styles from "../styles/onTop.module.css";
 
 
 export default { 
