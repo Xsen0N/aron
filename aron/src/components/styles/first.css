@@ -3,10 +3,16 @@ background-color:
 #212721;
 }
 .main{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+opacity: 0.8;
+  z-index: 9999;
     display: grid;
         grid-template-columns: 0.5fr 0.15fr 0.7fr 0.7fr 6fr  0.15fr 0.2fr 0.4fr;
        grid-template-rows: 50px;
-       margin-top:15px;
+       height: 66px;
   }
   #aron{
   position: relative;
@@ -14,21 +20,21 @@ background-color:
   left: 0.2%;
   right: 30.49%;
   margin-left:10px;
-  margin-top:-2px;
+  margin-top: 20px;
   }
   #aron-logo{
     width: 70px;
     height: auto;
+    margin-top: 0px;
   }
   #hello{
-    text-decoration: underline;
     font-family: 'Source Sans 3';
   font-style: normal;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 10px;
   line-height: 20px;
   /* identical to box height, or 154% */
-  
+  margin-top: 3px;
   letter-spacing: 1px;
   text-transform: uppercase;
   color: #D6D1CA;
@@ -40,6 +46,7 @@ background-color:
   font-weight: 400;
   font-size: 13px;
   line-height: 20px;
+  margin-top: 25px;
   /* identical to box height, or 154% */
   
   letter-spacing: 1px;
@@ -51,23 +58,31 @@ background-color:
   #pac{
       grid-column-start: 6;
     grid-column-end: 7;
+    margin-top: 25px;
+   
   }
   #slash{
     height: 15px;
   width: 1px;
   left: 85.203125px;
   top: 3.828125px;
-  background: #4A524A;
+  background: #D6D1CA;
   border-radius: 0px;
       justify-self: center;
-     color: #4A524A;
-  
+     color: #D6D1CA;
+     margin-top: 25px;
+
+     margin-left: 5px;
   }
   #square {
       width: 22px;
       height: 22px;
       background: #FFEA00;
     text-align: center;
+    margin-top: 25px;
+    justify-self: center;
+    align-self:normal;
+    vertical-align: middle;
   }
   #topline{
     margin-top: 6px;
@@ -75,7 +90,8 @@ background-color:
       height: 1.71px;
   background: #D6D1CA;
       justify-self: center;
-  
+      margin-top: 30px;
+      justify-self: center;
   }
   #btnline{
     margin-top: 6px;
@@ -84,3 +100,6 @@ background-color:
   background: #D6D1CA;
       justify-self: center;
   }
+hr{
+  margin-top: 38px;
+}

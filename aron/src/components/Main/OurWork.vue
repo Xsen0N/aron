@@ -8,11 +8,11 @@ const work = "Our Work"
 const workwithus = "work with us"
 </script>
 <template>
-<div>
+<div class="lastblock">
 <div class="firstblock">
   
        <div  :src ="work"  class="work"> {{work}} </div >
-       <div :src ="workwithus " class="work2">  {{workwithus}}</div >
+       <div :src ="workwithus " class="work2">  <LinkUnderline :LinkConect="LinkConect"/></div >
    
 </div>
     <div class="words" v-for="(part,keys) in props.texts" :key="keys">
@@ -20,3 +20,18 @@ const workwithus = "work with us"
     </div>
 </div>
 </template>
+
+<script lang="ts">
+import LinkUnderline from '../Content/LinkUnderline.vue'
+export default {
+  components: {
+    LinkUnderline
+  },
+  data() {
+    return {
+        LinkConect: 'work with us'
+    }
+  }
+}
+
+</script>

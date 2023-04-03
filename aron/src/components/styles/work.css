@@ -28,15 +28,20 @@
     margin-left: 80px;
 }
 .work2{
-    flex: 1;
+    flex: 4;
     width: 255px;
     color: #D6D1CA;
     text-transform: uppercase;
     text-align: right;
-    margin-top: 30px;
+    margin-top: 7px;
     margin-right: 40px;
     height: 20px;
+    font-size: 10px;
+    float: right;
 }
 .firstblock{
     display: flex;
+}
+.lastblock{
+    margin-bottom: 137px ;
 }

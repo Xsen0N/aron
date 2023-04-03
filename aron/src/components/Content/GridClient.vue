@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import '../style/part2.css'
+import '../styles/part2.css'
 const itemText1 = "We worked with the world’s"
 const SubItemText = " Biggest "
 const itemText2 = "Brands "
