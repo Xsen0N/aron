@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import '../styles/part2.css'
+import '../style/part2.css'
 const itemText1 = "We worked with the world’s"
 const SubItemText = " Biggest "
 const itemText2 = "Brands "
@@ -29,8 +29,8 @@ const ButtonEnquireUs = "Enquire Us"
         <button :src=ButtonEnquireUs class="ButtonEnquireUs">{{ButtonEnquireUs}}</button>
       </div>
       <div class="itemBrandPhoto">
-        <ImageComponent :text="text" :imageSrc="imageSrc" />
-    </div>
+        <ImageComponent :text="text" :imageSrc="imageSrc" :ClientImagestyles="ClientImagestyles" :ClientTextstyles="ClientTextstyles" :ClientText2styles="ClientText2styles"/>
+      </div>
     </div>
 </template>
 
@@ -43,7 +43,16 @@ export default {
   data() {
     return {
       imageSrc: 'https://assets.website-files.com/61b88a38b30a977e957e8ca7/61bb24d6a1230404fc2678ff_photo-2.jpg',
-      text: 'Our Client'
+      text: 'Our Client',
+      ClientTextstyles: { },
+      ClientText2styles: {    
+        'width': '600px',
+        'margin-left': '-74px',
+        'margin-top': '96px' },
+      ClientImagestyles: { 
+        'width': '100%',
+        'height': '100%',
+        'object-position': '50% 0%'}
     }
   }
 }
