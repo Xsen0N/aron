@@ -11,7 +11,7 @@
 
 </template>
 
-<script setup lang="ts">
+<script setup>
 import ourVision from "./ourVision.vue";
 import FooterBlock from "./FooterBlock.vue"
 import onTopButton from "./onTopButton.vue"

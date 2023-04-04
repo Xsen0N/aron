@@ -1,16 +1,16 @@
 <template>
-    <footer>
+    <footer id="footer_container">
         <modal v-if="showModal" @close="closeModal"/>
-        <section :class="styles.first_sec">
-            <div :class="styles.main_text1">READY TO TALK</div>
-            <div :class="styles.main_text2">FEEL FREE TO WRITE US.</div>
-            <div :class="styles.buttons">
-                <button v-on:click="callModal()" :class="styles.but_contact">Contact Us</button>
-                <button  :class="styles.but_call">MAKE A CALL</button>
+        <section class="first_sec">
+            <div class="main_text1">READY TO TALK</div>
+            <div class="main_text2">FEEL FREE TO WRITE US.</div>
+            <div class="buttons">
+                <button v-on:click="callModal()" id="but_cont" class="but_contact">Contact Us</button>
+                <button  class="but_call">MAKE A CALL</button>
             </div>
         </section>
-        <section :class="styles.second_sec">
-            <div :class="styles.list">
+        <section class="second_sec">
+            <div class="list">
                 <ul>
                     <li>HOME</li>
                     <li>ABOUT</li>
@@ -19,31 +19,29 @@
                     <li>CONTACT</li>
                 </ul>
             </div>
-            <div :class="styles.row2">
-                <div :class="styles.hq">HQ ADDRESS</div>
-                <div :class="styles.addr">741 New South Head Rd, Triple Bay SWFW 3148, New York</div>
-                <div :class="styles.cont">CONTACT</div>
-                <div :class="styles.mail">HELLO@ARON.COM</div>
-                <div :class="styles.tel">+1 317 711 105</div>
+            <div class="row2">
+                <div class="hq">HQ ADDRESS</div>
+                <div class="addr">741 New South Head Rd, Triple Bay SWFW 3148, New York</div>
+                <div class="cont">CONTACT</div>
+                <div class="mail">HELLO@ARON.COM</div>
+                <div class="tel">+1 317 711 105</div>
             </div>
-            <div :class="styles.row3">
-                <div :class="styles.foll">FOLLOW US</div>
-                <div :class="styles.style">STYLE GUIDE</div>
-                <div :class="styles.imag">IMAGE LICESING</div>
-                <div :class="styles.powered">© This is a Deni Bozo template powered by Webflow</div>
+            <div class="row3">
+                <div class="foll">FOLLOW US</div>
+                <div class="style">STYLE GUIDE</div>
+                <div class="imag">IMAGE LICESING</div>
+                <div class="powered">© This is a Deni Bozo template powered by Webflow</div>
             </div>
         </section>
     </footer>
 </template>
 
 <script lang="ts">
-import styles from "../styles/footer.module.css";
 import modal from "./modal.vue";
 
 export default {
     data() {
         return {
-            styles,
             showModal: false,
         }
     },
@@ -65,6 +63,6 @@ export default {
 </script>
 
  
-<style module>
-
+<style>
+@import '../styles/footer.css';
 </style>

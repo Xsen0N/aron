@@ -2,15 +2,18 @@
     background-color: #282e28;
     color: white;
     height: 1000px;
-    padding-top: 30px;
-    /* margin-top: 600px; */
+    margin-top: -230px;
+    display: -webkit-inline-box;
+    margin-bottom: 150px;
+    
 }
 
 .text{
-   margin-left: 850px;
-   margin-top: -550px;
-
+   text-align: left;
+   margin-top: 600px;
 }
+
+
 .text_m{
     font-family: 'Source Sans 3';
     font-style: normal;
@@ -55,6 +58,27 @@
     border-bottom: 1px solid rgba(214, 209, 202, 0.12);
 }
 
-.imageCompContainer {
+.main_sec .imageCompContainer {
     width: 600px;
+    margin-right: 200px;
+    bottom: 400px;
+    /* position: relative;
+    height: 100px; */
+}
+
+.main_sec .ComboTextPhoto {
+    bottom: 40px;
+}
+
+.main_sec .ClientText {
+    position: relative;
+    top: 480px;
+    right: 50px;
+}
+
+.main_sec .ClientText2 {
+    right: 58px;
+    white-space: nowrap;
+    letter-spacing: 3px;
+    bottom: 150.5px;
 }
