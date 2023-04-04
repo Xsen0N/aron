@@ -241,28 +241,7 @@ img.BrandItem5{
   display: flex;
 }
 
-.ClientImage{
-  width: 100%;
-  height: 100%;
-  object-position: 50% 0%;
-}
 
-.ClientText{
-      z-index: 0;
-  opacity: 1;
-  position: absolute;
-  text-align: center;
-  vertical-align: middle;
-  color:#d6d1ca;
-  font-family: 'Source Sans 3', sans-serif;
-  text-transform: uppercase;
-  font-size: 94px;
-  margin-left: -36px;
-  margin-top: 233px;
-  background: none;
-
-
-}
 .ComboTextPhoto{
   position: relative;
   display: flex;
@@ -273,21 +252,7 @@ img.BrandItem5{
 
   align-items: center
 }
-.ClientText2{
-  z-index: 2;
-  color: #ffea00;
-  font-family: 'Source Sans 3', sans-serif;
-  text-transform: uppercase;
-  font-size: 94px;
-  opacity: 1;
-  position: absolute;
-  text-align: center;
-  vertical-align: middle;
-  background: none;
-  width: 600px;
-  margin-left: -74px;
-  margin-top: 96px;
-}
+
 .ButtonEnquireUs{
   color: #fff;
   font-size: 16px;
@@ -403,7 +368,7 @@ animation: colorFade 20s infinite;
   opacity: 1;
 }
 }
-.SubItemText{
+.SubItemText, .textThink{
 animation: colorFade 20s infinite;
 }
 

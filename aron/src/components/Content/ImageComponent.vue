@@ -30,9 +30,9 @@ export default {
   color:#d6d1ca;
   font-family: 'Source Sans 3', sans-serif;
   text-transform: uppercase;
-  font-size: 94px;
-  margin-left: -36px;
-  margin-top: 233px;
+  font-size: 106px;
+  margin-left: -32px;
+    margin-top: 217px;
   background: none;
 
 }
@@ -50,7 +50,7 @@ export default {
   color: #ffea00;
   font-family: 'Source Sans 3', sans-serif;
   text-transform: uppercase;
-  font-size: 94px;
+  font-size: 106px;
   opacity: 1;
   position: absolute;
   text-align: center;
