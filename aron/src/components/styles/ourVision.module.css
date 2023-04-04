@@ -3,6 +3,7 @@
     color: white;
     height: 1000px;
     padding-top: 30px;
+    /* margin-top: 600px; */
 }
 
 .text{
@@ -52,4 +53,8 @@
 .line{
     margin-top: 200px;
     border-bottom: 1px solid rgba(214, 209, 202, 0.12);
+}
+
+.imageCompContainer {
+    width: 600px;
 }

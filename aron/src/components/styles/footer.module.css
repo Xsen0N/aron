@@ -43,19 +43,6 @@
     transition: all 200ms ease;
 }
 
-/* .button{
-    font-weight: 400;
-    font-size: 16px;
-    border-radius: 4px;
-    width: 150px;
-    height: 50px;
-    line-height: 20px;
-
-    background: #D6D1CA;
-    color: #212721;
-    border: none;
-} */
-
 .but_call {
     font-style: normal;
     font-weight: 400;

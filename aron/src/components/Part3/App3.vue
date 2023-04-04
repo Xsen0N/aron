@@ -4,19 +4,8 @@
     <onTopButton></onTopButton>
 </template>
 
-<script>
+<script setup lang="ts">
 import ourVision from "./ourVision.vue";
-import FooterBlock from './FooterBlock.vue';
-import onTopButton from './onTopButton.vue';
-
-export default {
-    name: "App",
-    components: {
-        ourVision, FooterBlock, onTopButton
-    }
-}
-
-
 
 </script>
 
