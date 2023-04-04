@@ -4,7 +4,7 @@ const image1 = "./image1.png"
 const image2 = "./image2.png"
 const image3 = "./image1.png"
 const textGallery = 'WHAT THEY '
-const textThink = 'THINK'
+const textThink = 'THINK.'
 </script>
 <template>
 <h3 class="textGallery">{{ textGallery }} <span :class="part2.textThink">{{ textThink }}</span></h3>
