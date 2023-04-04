@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import '../styles/part2.css'
+import part2 from '../styles/part2.module.css'
 const image1 = "./image1.png"
 const image2 = "./image2.png"
 const image3 = "./image1.png"
@@ -7,7 +7,7 @@ const textGallery = 'WHAT THEY '
 const textThink = 'THINK'
 </script>
 <template>
-<h3 class="textGallery">{{ textGallery }} <span class="textThink">{{ textThink }}</span></h3>
+<h3 class="textGallery">{{ textGallery }} <span :class="part2.textThink">{{ textThink }}</span></h3>
     <div class="gallery">
  
   <div class="gallery__item">

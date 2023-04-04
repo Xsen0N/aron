@@ -242,16 +242,6 @@ img.BrandItem5{
 }
 
 
-.ComboTextPhoto{
-  position: relative;
-  display: flex;
-  overflow: hidden;
-  max-width: 100%;
-  margin-right: auto;
-  margin-left: auto;
-
-  align-items: center
-}
 
 .ButtonEnquireUs{
   color: #fff;
@@ -372,7 +362,24 @@ animation: colorFade 20s infinite;
 animation: colorFade 20s infinite;
 }
 
+.LinkConectLine::after {
+  content: '';
+  display: block;
+  width: 0;
+  height: 2px;
+  background-color: #000;
+  transition: width 0.3s, background-color 0.3s;
+}
 
+.LinkAnimate:hover .LinkConectLine::after {
+  width: 100%;
+  color: #000;
+  background-color: #ffea00;
+}
+
+.LinkAnimate:hover {
+  color: #ffea00;
+}
 
 
 

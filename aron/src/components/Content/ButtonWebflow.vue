@@ -1,11 +1,12 @@
 <script setup lang="ts">
+import part2 from '../styles/part2.module.css'
 const ButtonWebflowContent = "View on Webflow"
 const LinkConect = "contact Us"
-import '../styles/part2.css'
+
 </script>
 <template>
-    <div class="ButtonCollection">
-        <div class="ButtonWebflow"><button :src=ButtonWebflowContent class="ButtonWebflow">{{ButtonWebflowContent}}</button></div>
+    <div :class="part2.ButtonCollection">
+        <div :class="part2.ButtonWebflow"><button :src=ButtonWebflowContent :class="part2.ButtonWebflow">{{ButtonWebflowContent}}</button></div>
         <LinkUnderline :LinkConect="LinkConect"/>
     </div>
 </template>

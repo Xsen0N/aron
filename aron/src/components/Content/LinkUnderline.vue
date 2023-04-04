@@ -1,4 +1,5 @@
 <script lang="ts">
+import part2 from '../styles/part2.module.css'
 export default {
     props: {
         LinkConect: String, 
@@ -16,6 +17,25 @@ export default {
 </template>
 
 <style>
+.LinkConect{
+  display: inline;
+  position: relative;
+  color: #d6d1ca;
+  font-family: 'Source Sans 3', sans-serif;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 40px;
+  margin-top: 15px;
+}
+
+.LinkConectLine{
+  position: relative;
+  width: 100%;
+  height: 1px;
+  background-color: #4a524a;
+  
+}
 .LinkConectLine::after {
   content: '';
   display: block;

@@ -1,5 +1,5 @@
 <script setup lang="ts" >
-import '../styles/part2.css'
+import part2 from '../styles/part2.module.css'
 const itemText1 = "We worked with the world’s"
 const SubItemText = " Biggest "
 const itemText2 = "Brands "
@@ -13,22 +13,22 @@ const ButtonEnquireUs = "Enquire Us";
 
 </script>
 <template>
-    <div class="gridContainerClient" id="workwithus">
-      <div class="itemList">
-        <p :src=itemText1 class="itemText1">{{itemText1}}</p>
-        <span :src=SubItemText class="SubItemText">{{SubItemText}}</span>
-        <p :src=itemText2 class="itemText2">{{itemText2}}</p>
+    <div :class="part2.gridContainerClient" id="workwithus">
+      <div :class="part2.itemList">
+        <p :src=itemText1 :class="part2.itemText1">{{itemText1}}</p>
+        <span :src=SubItemText :class="part2.SubItemText">{{SubItemText}}</span>
+        <p :src=itemText2 :class="part2.itemText2">{{itemText2}}</p>
         </div>
-      <div class="listOfBrands">
-        <div class="BrandItem1"><img :src=BrandItem1 class="BrandItem1"/></div>
-        <div class="BrandItem2"><img :src=BrandItem2 class="BrandItem2"/></div>
-        <div class="BrandItem3"><img :src=BrandItem3 class="BrandItem3"/></div>
-        <div class="BrandItem4"><img :src=BrandItem4 class="BrandItem4"/></div>
-        <div class="BrandItem5"><img :src=BrandItem5 class="BrandItem5"/></div>
-        <div class="BrandItem6"><img :src=BrandItem6 class="BrandItem6"/></div>
-        <button :src=ButtonEnquireUs class="ButtonEnquireUs">{{ButtonEnquireUs}}</button>
+      <div :class="part2.listOfBrands">
+        <div :class="part2.BrandItem1"><img :src=BrandItem1 :class="part2.BrandItem1"/></div>
+        <div :class="part2.BrandItem2"><img :src=BrandItem2 :class="part2.BrandItem2"/></div>
+        <div :class="part2.BrandItem3"><img :src=BrandItem3 :class="part2.BrandItem3"/></div>
+        <div :class="part2.BrandItem4"><img :src=BrandItem4 :class="part2.BrandItem4"/></div>
+        <div :class="part2.BrandItem5"><img :src=BrandItem5 :class="part2.BrandItem5"/></div>
+        <div :class="part2.BrandItem6"><img :src=BrandItem6 :class="part2.BrandItem6"/></div>
+        <button :src=ButtonEnquireUs :class="part2.ButtonEnquireUs">{{ButtonEnquireUs}}</button>
       </div>
-      <div class="itemBrandPhoto">
+      <div :class="part2.itemBrandPhoto">
         <ImageComponent :text="text" :imageSrc="imageSrc" :ClientImagestyles="ClientImagestyles" :ClientTextstyles="ClientTextstyles" :ClientText2styles="ClientText2styles"/>
       </div>
     </div>

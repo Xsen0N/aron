@@ -1,8 +1,9 @@
 <script setup lang="ts">
+import part2 from '../styles/part2.module.css'
 import ButtonWebflow from './ButtonWebflow.vue'
 import BookImage from './BookImg.vue'
 import TextBuild from './TextBuild.vue'
-import '../styles/part2.css'
+
 import GridClient from './GridClient.vue'
 import ImageComponent from './ImageComponent.vue'
 import Gallery from './Gallery.vue'
@@ -23,19 +24,19 @@ const prop = defineProps({
 
 <template>
   
-    <div class= "ImageBook_wrapper">
+    <div :class= "part2.ImageBook_wrapper">
         <BookImage/>
     </div>
-    <div class= "TextBuild_wrapper">
+    <div :class= "part2.TextBuild_wrapper">
         <TextBuild/>
     </div>
-    <div class= "button_wrapper">
+    <div :class= "part2.button_wrapper">
         <ButtonWebflow/>
     </div>
-    <div class= "GridClient_wrapper">
+    <div :class= "part2.GridClient_wrapper">
         <GridClient/>
     </div>
-    <div class= "Gallery_wrapper">
+    <div :class= "part2.Gallery_wrapper">
         <Gallery/>
     </div>
 </template>
