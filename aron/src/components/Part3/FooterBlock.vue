@@ -37,7 +37,7 @@
 </template>
 
 <script>
-import styles from "./styles/footer.module.css";
+import styles from "../styles/footer.module.css";
 import modal from "./modal.vue";
 
 export default {

@@ -1,0 +1,47 @@
+.words{
+
+    position: relative;
+    z-index: 2;
+    font-family: 'Source Sans 3', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 86px;
+    line-height: 104px;
+    /* identical to box height, or 121% */
+    display: block;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #D6D1CA;
+    margin-left: 80px;
+}
+.work{
+    flex: 1;
+    width: 255px;
+    color: #D6D1CA;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 40px;
+    text-align: left;
+    margin-bottom: 40px;
+    align-items: center;
+    margin-left: 80px;
+}
+.work2{
+    flex: 4;
+    width: 255px;
+    color: #D6D1CA;
+    text-transform: uppercase;
+    text-align: right;
+    margin-top: 7px;
+    margin-right: 40px;
+    height: 20px;
+    font-size: 10px;
+    float: right;
+}
+.firstblock{
+    display: flex;
+}
+.lastblock{
+    margin-bottom: 137px ;
+}

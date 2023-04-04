@@ -11,5 +11,7 @@ import App3 from './components/Part3/App3.vue'
     <div>
   <Content/>
   </div>
-<App3/>
+      <div>
+  <App3/>
+  </div>
 </template>
