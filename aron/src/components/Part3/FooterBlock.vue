@@ -36,7 +36,7 @@
     </footer>
 </template>
 
-<script>
+<script lang="ts">
 import styles from "../styles/footer.module.css";
 import modal from "./modal.vue";
 
