@@ -1,9 +1,10 @@
 <script setup lang="ts">
+import block from '../styles/block.module.css';
 import {ref,defineProps} from 'vue'
 const props = defineProps({
     texts:Array
     })
-import '../styles/work.css'
+//import '../styles/work.css'
 const work = "Our Work"
 const workwithus = "work with us"
 const scrollToWorkBlock = (anchor: string) => {
@@ -12,19 +13,21 @@ const scrollToWorkBlock = (anchor: string) => {
     anchorEl.scrollIntoView({ behavior: 'smooth' })
   }
 }
-import block from '../styles/block.module.css';
 </script>
 
+<styles module>
+  
+</styles>
 
 <template>
-<div class="lastblock">
-<div class="firstblock">
+<div :class="block.lastblock">
+<div :class="block.firstblock">
   
-       <div  :src ="work"  class="work"> {{work}} </div >
-       <div :src ="workwithus " class="work2" @click="scrollToWorkBlock('#workwithus')">  <LinkUnderline :LinkConect="LinkConect"/></div >
+       <div  :src ="work"  :class="block.work"> {{work}} </div >
+       <div :src ="workwithus " :class="block.work2" @click="scrollToWorkBlock('#workwithus')">  <LinkUnderline :LinkConect="LinkConect"/></div >
    
 </div>
-    <div class="words" v-for="(part,keys) in props.texts" :key="keys">
+    <div :class="block.words" v-for="(part,keys) in props.texts" :key="keys">
         {{part.part}}
     </div>
 </div>
@@ -33,6 +36,7 @@ import block from '../styles/block.module.css';
 <script lang="ts">
 import LinkUnderline from '../Content/LinkUnderline.vue'
 export default {
+  name: 'OurWork',
   components: {
     LinkUnderline
   },

@@ -6,34 +6,34 @@ const firstline = "aron creates"
 const secondline = "innovation "
 const secondline2 = "by design"
 const thirdline = "not by chance."
-import '../styles/text.css'
+import texts from '../styles/texts.module.css'
 const props = defineProps({
     creates:Array
     })
 </script>
 <template>
-<div class="block2">
+<div :class="texts.block2">
 
-    <div class="text_wrapper">
-        <div class="photo_animation_page">
+    <div :class="textstext_wrapper">
+        <div :class="textsphoto_animation_page">
 <div class="itemBrandPhoto">
                 <ImageComponent :text="text" :imageSrc="imageSrc" :ClientImagestyles="ClientImagestyles" :ClientTextstyles="ClientTextstyles" :ClientText2styles="ClientText2styles"/>
 
       </div>
         </div>
     </div>
-<div class="maincolomn" id="myAnchor">
-        <div class="table">
-             <p :src="firstline" class="line">{{firstline}}</p>
-             <p :src="secondline" class="line"><span :src="secondline" id="inov" > {{secondline}}</span>{{secondline2}} </p>
-             <p :src="thirdline" class="line"> {{thirdline}} </p>
+<div :class="texts.maincolomn" id="myAnchor">
+        <div :class="texts.table">
+             <p :src="firstline" :class="texts.line">{{firstline}}</p>
+             <p :src="secondline" :class="texts.line"><span :src="secondline" :id="texts.inov" > {{secondline}}</span>{{secondline2}} </p>
+             <p :src="thirdline" :class="texts.line"> {{thirdline}} </p>
          </div>
 
-    <div class="secondcolumn">
-        <div class="textprops" v-for="(item,newkey) in props.creates" :key="newkey">
-              <img :src=item.img class="icons"> 
-              <div class="maintext"> {{item.maintext}}</div>
-              <div class="addettext"> {{item.text}}</div>
+    <div :class="texts.secondcolumn">
+        <div :class="texts.textprops" v-for="(item,newkey) in props.creates" :key="newkey">
+              <img :src=item.img :class="texts.icons"> 
+              <div :class="texts.maintext"> {{item.maintext}}</div>
+              <div :class="texts.addettext"> {{item.text}}</div>
         </div>  
     </div>
 </div>

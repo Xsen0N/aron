@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {ref,defineProps} from 'vue'
-import '../styles/dis.css'
+import dis from '../styles/dis.module.css'
 const props = defineProps({
     items:Array
     })
@@ -27,25 +27,25 @@ const scrollToAnchor = (anchor: string) => {
 <template >
 <div>
     <div>
-    <div class="FAS"> 
-        <p :src="firstpart" id="firstpart"> {{firstpart}} </p>
-        <p :src="Andpart" id="Andpart"> {{Andpart}}  </p> 
-        <p :src="secondpart" id="secondpart"> {{secondpart}} </p>   
+    <div :class="dis.FAS"> 
+        <p :src="firstpart" :id="dis.firstpart"> {{firstpart}} </p>
+        <p :src="Andpart" :id="dis.Andpart"> {{Andpart}}  </p> 
+        <p :src="secondpart" :id="dis.secondpart"> {{secondpart}} </p>   
      </div>
     </div>
 
-    <div class="text" v-for="(item,key) in props.items" :key="key">
+    <div :class="dis.text" v-for="(item,key) in props.items" :key="key">
         {{item.word}}
     </div>
 
 
     <div>
-<button id= "square1" @click="playVideo"><img :src ="treangle" class="pause"> </button>
+<button :id= "dis.square1" @click="playVideo"><img :src ="treangle" :class="dis.pause"> </button>
     </div> 
 
-    <div class="mainScroll"> 
-      <a @click="scrollToAnchor('#myAnchor')" >   <img :src="play" class ="play" > </a>
-        <div class="po"> <img :src="downscrool" class ="downscrool"> </div>
+    <div :class="dis.mainScroll"> 
+      <a @click="scrollToAnchor('#myAnchor')" >   <img :src="play" :class ="dis.play" > </a>
+        <div :class="dis.po"> <img :src="downscrool" :class ="dis.downscrool"> </div>
     </div> 
 
 
