@@ -1,8 +1,8 @@
 <template>
     
-    <div :class="styles.imageCompContainer">
-        <ImageComponent v-bind:ClientImagestyles="photoContainer" image-src="https://assets.website-files.com/61b88a38b30a977e957e8ca7/61bb356a67fcdb2f66fac720_photo-5-p-500.jpeg"  text="Our vision"/>
-    </div>
+    <!-- <div :class="styles.imageCompContainer">
+        <ImageComponent v-bind:ClientImagestyles="" image-src="https://assets.website-files.com/61b88a38b30a977e957e8ca7/61bb356a67fcdb2f66fac720_photo-5-p-500.jpeg"  text="Our vision"/>
+    </div> -->
     <section :class="styles.main_sec">
         <!-- <photoComp/> -->
         <div :class="styles.text">
