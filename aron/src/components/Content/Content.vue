@@ -5,6 +5,7 @@ import TextBuild from './TextBuild.vue'
 import '../styles/part2.css'
 import GridClient from './GridClient.vue'
 import ImageComponent from './ImageComponent.vue'
+import Gallery from './Gallery.vue'
 const prop = defineProps({
     ButtonWebflowContent :String,
     BookImage: String,
@@ -33,6 +34,9 @@ const prop = defineProps({
     </div>
     <div class= "GridClient_wrapper">
         <GridClient/>
+    </div>
+    <div class= "Gallery_wrapper">
+        <Gallery/>
     </div>
 </template>
 

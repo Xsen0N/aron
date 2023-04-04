@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang="ts" >
 import '../styles/part2.css'
 const itemText1 = "We worked with the world’s"
 const SubItemText = " Biggest "
@@ -9,7 +9,7 @@ const BrandItem3 = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61
 const BrandItem4 = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61bb2cee18572452404af6fa_logo-2.png"
 const BrandItem5 = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61bb2bf3f6568fe42760793e_logo-6.png"
 const BrandItem6 = "https://assets.website-files.com/61b88a38b30a977e957e8ca7/61bb2c6006e6f7e256ba18cc_logo-8.png"
-const ButtonEnquireUs = "Enquire Us"
+const ButtonEnquireUs = "Enquire Us";
 
 </script>
 <template>
