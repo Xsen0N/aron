@@ -53,8 +53,8 @@ export default {
     ClientTextstyles: { },
       ClientText2styles: {    
         'width': '692px',
-        'margin-left': '-74px',
-        'margin-top': '30px' },
+        'margin-left': '-79px',
+        'margin-top': '29px' },
       ClientImagestyles: { 
         'width': '100%',
         'height': '100%',
