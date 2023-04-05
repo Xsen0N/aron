@@ -13,6 +13,28 @@
    margin-top: 600px;
 }
 
+.details {
+     font-weight: 100;
+    font-style: italic  ;
+    display: inline;
+    font-family: system-ui;
+    animation: colorFade 20s infinite;
+}
+
+@keyframes colorFade {
+  0% {
+    color: #ffffff;
+    opacity: 1;
+  }
+  50% {
+    color: #ffea00;
+    opacity: 0.75;
+  }
+  100% {
+    color: #ffffff;
+    opacity: 1;
+  }
+}
 
 .text_m{
     font-family: 'Source Sans 3';

@@ -6,7 +6,8 @@
             <div class="main_text2">FEEL FREE TO WRITE US.</div>
             <div class="buttons">
                 <button v-on:click="callModal()" id="but_cont" class="but_contact">Contact Us</button>
-                <button  class="but_call">MAKE A CALL</button>
+                <LinkUnderline  v-bind:LinkConect="LinkConect"/>
+                <!-- <button  class="but_call" >MAKE A CALL</button> -->
             </div>
         </section>
         <section class="second_sec">
@@ -38,16 +39,18 @@
 
 <script lang="ts">
 import modal from "./modal.vue";
+import LinkUnderline from '../Content/LinkUnderline.vue';
 
 export default {
     data() {
         return {
             showModal: false,
+            LinkConect: 'Make a call'
         }
     },
 
     components: {
-        modal
+        modal, LinkUnderline
     },
 
     methods: {
@@ -61,7 +64,19 @@ export default {
     }
 }
 </script>
+<!-- <script lang="ts">
+export default {
+  components: {
+    
+  },
+  data() {
+    return {
+        LinkConect: 'Make a call'
+    }
+  }
+}
 
+</script> -->
  
 <style>
 @import '../styles/footer.css';

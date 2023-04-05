@@ -6,7 +6,7 @@
         
         <div class="text">
             <div class="text_m">
-                WE WORRY ABOUT<br/> THE DETAILS SO YOU<br/> DON'T HAVE TO.
+                WE WORRY ABOUT<br/> THE <span class="details">DETAILS</span> SO YOU<br/> DON'T HAVE TO.
             </div>
             <div class="text_about">
                 What makes Aron Studio unique is our vision. When we first started as
