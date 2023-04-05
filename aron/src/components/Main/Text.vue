@@ -56,8 +56,8 @@ export default {
         'margin-left': '-79px',
         'margin-top': '29px' },
       ClientImagestyles: { 
-        'width': '100%',
-        'height': '100%',
+        'width': ' 500px',
+        'height': '671px',
         'object-position': '50% 0%'}
     }
   }
