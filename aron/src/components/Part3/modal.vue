@@ -5,7 +5,8 @@
       <div class="Myform">
         <h1>Request Demo</h1>
         <div class="inp">
-          <form name="regisrration" action="form.php" method="post">
+          <form name="regisrration" action="form.php" method="post" style="
+    background: none">
             <input class="log" type="text" required placeholder="Name" name="login" />
             <input
               class="pass"

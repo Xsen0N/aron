@@ -7,6 +7,7 @@
   background-color: rgba(0, 0, 0, 0.3);
   box-sizing: border-box;
   z-index: 1000;
+
   /* display: flex;
   justify-content: center;
   align-items: center; */
@@ -20,6 +21,7 @@
   margin: 10% auto; /* отступ сверху и выравнивание по середине */
   box-shadow: 2px 2px 4px 0px #161715; /* тень блока */
   padding-right: 20px;
+  
 }
 #modal_container .Myform h1 {
   margin: 0; /* убираем отступы */
@@ -40,12 +42,14 @@
 }
 #modal_container .inp {
   padding: 20px; /* отступы */
+  background: none;
 }
 #modal_container .log {
   border: 1px solid #dcdcdc; /* рамка */
   padding: 12px 10px; /* отступы текста */
   width: 260px; /* ширина */
   border-radius: 5px ; /* закругленные */
+  background: none;
 }
 #modal_container .log:focus{
   background-color: #dcdcdcd3;
@@ -55,6 +59,7 @@
   padding: 12px 10px; /* отступы текста */
   width: 260px; /* ширина */
   border-radius: 5px; /* закругленные углы */
+  background: none;
 }
 #modal_container .pass:focus{
   background-color: #dcdcdcd3;
@@ -86,11 +91,13 @@
   width: 50px; /* ширина */
   float: left; /* выравнивание слева */
   padding-top: 20px; /* оступ сверху для текста */
+  background: none;
 }
 #modal_container .info a {
   color: #999; /* цвет ссылки */
   text-decoration: none; /* убираем подчеркивание */
   font-family: Arial, Helvetica, sans-serif;
+  background: none;
 }
 #modal_container a:hover {
   color: #ffea00; /* цвет ссылки при наведении */

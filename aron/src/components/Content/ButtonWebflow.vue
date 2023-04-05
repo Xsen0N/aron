@@ -7,23 +7,37 @@ const LinkConect = "contact Us"
 <template>
     <div :class="part2.ButtonCollection">
         <div :class="part2.ButtonWebflow"><button :src=ButtonWebflowContent :class="part2.ButtonWebflow">{{ButtonWebflowContent}}</button></div>
-        <LinkUnderline :LinkConect="LinkConect"/>
+        <modal v-if="showModal" @close="closeModal"/>
+        <LinkUnderline :LinkConect="LinkConect" v-on:click="callModal()" />
     </div>
 </template>
 
 <script lang="ts">
 import LinkUnderline from './LinkUnderline.vue'
+import modal from "../Part3/modal.vue";
 export default {
   components: {
-    LinkUnderline
+    LinkUnderline,
+    modal
   },
   data() {
     return {
-        LinkConect: 'contact Us'
+        LinkConect: 'contact Us',
+        showModal: false,
     }
-  }
+  },
+  methods: {
+        callModal() {
+            this.showModal = true;
+        },
+
+        closeModal() {
+            this.showModal = false;
+        }
+    }
 }
 
-</script>
 
+
+</script>
 
